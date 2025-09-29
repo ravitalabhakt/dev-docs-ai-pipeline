@@ -1,0 +1,12 @@
+changeType: FEATURE
+product: Banking Services
+capability: Access Control
+version: 2025.04
+title: "Added support for granular role-based privileges in account statements"
+description: >
+  The Access Control capability now supports granular role-based privileges for the Account Statements
+  workflow. Bank admins can configure fine-grained permissions for viewing, generating, and exporting
+  statements, improving compliance and reducing operational risks.
+links:
+  - text: "Access Control reference" url: "https://example.com/ref/access-control"
+  - text: "Account Statements journey" url: "https://example.com/journeys/account-statements"

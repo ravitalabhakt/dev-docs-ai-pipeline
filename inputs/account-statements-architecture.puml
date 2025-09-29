@@ -1,0 +1,10 @@
+@startuml
+skinparam monochrome true
+title Account Statements - Access Control interactions
+actor Admin
+rectangle "Account Statements Service" as ASS
+rectangle "Access Control" as ACC
+Admin --> ASS : Configure privileges
+ASS --> ACC : Validate permission
+ACC --> ASS : Allow/Deny
+@enduml
